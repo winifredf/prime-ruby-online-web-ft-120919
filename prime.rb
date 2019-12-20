@@ -9,6 +9,7 @@ def sieve(max)# Add  code here!
   
   counter = 0
   primes.each do |p|
+    next unless p
     break if p*p > max
     counter += 1
     

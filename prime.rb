@@ -1,7 +1,7 @@
 require 'benchmark'
 require 'bigdecimal/math'
 
-puts benchmark.measure { b
+puts benchmark.measure { bigMath.pi(10_000) }
 
 def sieve(max)# Add  code here!
   primes = (0..max).to_a
